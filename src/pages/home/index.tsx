@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/portfolio-MatheusFerreira33 `;
 
   return (
     <main id="home">
@@ -44,22 +44,26 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Ola, meu nome e {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+            Eu{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                amo
               </Text>{" "}
-              creating and{" "}
+              criar e{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+              desenvolver
               </Text>{" "}
-              projects
+              projetos
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            Meu nome é Matheus Ferreira, tenho 22 anos e minha paixão pela programação começou aos 14 anos,
+            ao longo dos anos estou adquirindo conhecimento Web, essa combinação de conhecimentos técnicos sólidos, 
+            experiência prática e dedicação contínua me permite enfrentar desafios no desenvolvimento de software e 
+            buscar novas oportunidades para crescer profissionalmente. Estou constantemente buscando expandir meu 
+            conjunto de habilidades e me manter atualizado com as tendências e avanços no campo da T.I.
+
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
